@@ -405,7 +405,6 @@
 			<Item Name="ConstantSpreadSheet.vi" Type="VI" URL="../../981LabViewComponents/ConstantSpreadSheet.vi"/>
 			<Item Name="2022 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../981LabViewComponents/2022 Create Constants from CVS Spreadsheet.vi"/>
 			<Item Name="ReadConstantSpreadsheet.vi" Type="VI" URL="../../981LabViewComponents/ReadConstantSpreadsheet.vi"/>
-			<Item Name="2020-Robot Global Data.vi" Type="VI" URL="../../2020LabView/2020-Robot Global Data.vi"/>
 			<Item Name="2022 InitGlobalConstants.vi" Type="VI" URL="../../981LabViewComponents/2022 InitGlobalConstants.vi"/>
 			<Item Name="init Compressor.vi" Type="VI" URL="../../981LabViewComponents/init Compressor.vi"/>
 			<Item Name="SpreadSheetGlobal.vi" Type="VI" URL="../../981LabViewComponents/SpreadSheetGlobal.vi"/>
@@ -1207,7 +1206,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
