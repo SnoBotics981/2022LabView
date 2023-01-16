@@ -480,8 +480,6 @@
 			<Item Name="Create Arm Constants.vi" Type="VI" URL="../../981LabViewComponents/Create Arm Constants.vi"/>
 			<Item Name="Set Arm PID Constants.vi" Type="VI" URL="../../981LabViewComponents/Set Arm PID Constants.vi"/>
 			<Item Name="2022-BeginLogic.vi" Type="VI" URL="../../981LabViewComponents/2022-BeginLogic.vi"/>
-			<Item Name="Init Winch Spark Max With CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Winch Spark Max With CVS File.vi"/>
-			<Item Name="2022 Create Winch Constants.vi" Type="VI" URL="../../981LabViewComponents/2022 Create Winch Constants.vi"/>
 			<Item Name="Get Arm Sensor Info.vi" Type="VI" URL="../../981LabViewComponents/Get Arm Sensor Info.vi"/>
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -489,6 +487,8 @@
 			<Item Name="ntcoreffi.dll" Type="Document" URL="ntcoreffi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="2023 Robot Global Data.vi" Type="VI" URL="../../981LabViewComponents/2023 Robot Global Data.vi"/>
+			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1416,7 +1416,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">168</Property>
+				<Property Name="Bld_version.build" Type="Int">169</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
